@@ -11,7 +11,7 @@ body {
     text-align: center;
 }
 
-/* Cabeçalho e navegação */
+
 nav {
     background-color: #333;
     padding: 10px 0;
@@ -34,26 +34,26 @@ nav ul li a:hover {
     color: #f4a261;
 }
 
-/* Imagens */
+
 img {
     max-width: 200px;
     border-radius: 10px;
 }
 
-/* Conteúdo */
+
 h1, h2 {
     color: #2a9d8f;
 }
 
 p {
     line-height: 1.6;
-    color: #333; /* Definindo a cor do texto das descrições para garantir que fique visível */
+    color: #333; 
 }
 
-/* Títulos dos projetos */
+
 .project {
-    background-color: #333; /* Fundo preto para os projetos */
-    color: white; /* Cor do texto branca */
+    background-color: #333; 
+    color: white; 
     padding: 20px;
     margin: 15px 0;
     border-radius: 10px;
@@ -61,25 +61,25 @@ p {
 }
 
 .project-title {
-    color: #f4a261; /* Cor laranja para os títulos dos projetos */
+    color: #f4a261; 
 }
 
 .project p {
-    color: #ddd; /* Cor mais clara para as descrições dos projetos */
+    color: #ddd; 
     line-height: 1.6;
 }
 
 .project-link {
-    color: #f4a261; /* Cor laranja para o link */
+    color: #f4a261; 
     text-decoration: none;
     font-weight: bold;
 }
 
 .project-link:hover {
-    color: #2a9d8f; /* Cor do link quando passar o mouse */
+    color: #2a9d8f; 
 }
 
-/* Formulário */
+
 form {
     background: white;
     padding: 20px;
@@ -108,7 +108,7 @@ button:hover {
     background: #21867a;
 }
 
-/* Rodapé */
+
 footer {
     margin-top: 20px;
     padding: 10px;
