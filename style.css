@@ -1,0 +1,117 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+}
+
+/* Cabeçalho e navegação */
+nav {
+    background-color: #333;
+    padding: 10px 0;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+nav ul li a:hover {
+    color: #f4a261;
+}
+
+/* Imagens */
+img {
+    max-width: 200px;
+    border-radius: 10px;
+}
+
+/* Conteúdo */
+h1, h2 {
+    color: #2a9d8f;
+}
+
+p {
+    line-height: 1.6;
+    color: #333; /* Definindo a cor do texto das descrições para garantir que fique visível */
+}
+
+/* Títulos dos projetos */
+.project {
+    background-color: #333; /* Fundo preto para os projetos */
+    color: white; /* Cor do texto branca */
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.project-title {
+    color: #f4a261; /* Cor laranja para os títulos dos projetos */
+}
+
+.project p {
+    color: #ddd; /* Cor mais clara para as descrições dos projetos */
+    line-height: 1.6;
+}
+
+.project-link {
+    color: #f4a261; /* Cor laranja para o link */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.project-link:hover {
+    color: #2a9d8f; /* Cor do link quando passar o mouse */
+}
+
+/* Formulário */
+form {
+    background: white;
+    padding: 20px;
+    max-width: 400px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+button {
+    background: #2a9d8f;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+button:hover {
+    background: #21867a;
+}
+
+/* Rodapé */
+footer {
+    margin-top: 20px;
+    padding: 10px;
+    background:  #2a9d8f;
+    color: white;
+}
